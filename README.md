@@ -2,6 +2,9 @@
 
 A simple package to get current Maramataka (Māori lunar calendar) information. This package provides easy access to Maramataka data, including the current lunar phase name and description.
 
+## Author
+Created by [James Ian Rowles](https://james-ian-rowles.co.nz)
+
 ## Installation
 
 ### NPM
@@ -11,7 +14,7 @@ npm install maramataka-npm
 
 ### Browser (via jsDelivr)
 ```html
-<script src="https://cdn.jsdelivr.net/npm/maramataka-npm@1.0.3/dist/maramataka.bundle.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/maramataka-npm@1.0.4/dist/maramataka.bundle.js"></script>
 ```
 
 ## Usage
@@ -35,7 +38,7 @@ console.log('Current Date:', date);
 
 ### Browser
 ```html
-<script src="https://cdn.jsdelivr.net/npm/maramataka-npm@1.0.3/dist/maramataka.bundle.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/maramataka-npm@1.0.4/dist/maramataka.bundle.js"></script>
 <script>
     // The maramataka object is available globally
     const name = maramataka.getMaramatakaName();
@@ -80,7 +83,7 @@ Here's a complete example of how to use the package in a web page:
 <html>
 <head>
     <title>Maramataka Example</title>
-    <script src="https://cdn.jsdelivr.net/npm/maramataka-npm@1.0.3/dist/maramataka.bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/maramataka-npm@1.0.4/dist/maramataka.bundle.js"></script>
 </head>
 <body>
     <div id="maramataka-info"></div>
