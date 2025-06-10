@@ -1,0 +1,28 @@
+{
+  "name": "maramataka-npm",
+  "version": "1.0.4",
+  "description": "A simple package to get current Maramataka (Māori lunar calendar) information",
+  "main": "src/index.js",
+  "files": [
+    "src",
+    "data",
+    "dist"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "esbuild src/index.js --bundle --outfile=dist/maramataka.bundle.js --format=iife --global-name=maramataka --minify"
+  },
+  "keywords": [
+    "maramataka",
+    "maori",
+    "lunar",
+    "calendar",
+    "new zealand"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.25.5",
+    "jest": "^29.7.0"
+  }
+}
